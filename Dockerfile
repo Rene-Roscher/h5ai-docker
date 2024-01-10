@@ -17,4 +17,4 @@ COPY ./web/default.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 
 # Start nginx and PHP-FPM
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["nginx"]
